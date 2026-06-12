@@ -16,7 +16,7 @@
     @endphp
 
     @for($n = 1; $n <= 10; $n++)
-        {{ $num * $n }}
+        <div>2 x {{$n}} = {{$num*$n}}</div>
     @endfor
 </body>
 </html>
